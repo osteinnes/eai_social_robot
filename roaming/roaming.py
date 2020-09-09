@@ -35,6 +35,11 @@ def movebase_client():
         goal.target_pose.pose.position.y = position["y"]
         goal.target_pose.pose.position.z = position["z"]
 
+        goal.target_pose.pose.orientation.x = orientation["x"]
+        goal.target_pose.pose.orientation.y = orientation["y"]
+        goal.target_pose.pose.orientation.z = orientation["z"]
+        goal.target_pose.pose.orientation.w = orientation["w"]
+
         # Sends the goal to the action server.
         client.send_goal(goal)
         # Waits for the server to   finish performing the action.
