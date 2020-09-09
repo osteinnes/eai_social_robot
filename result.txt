@@ -1,0 +1,19 @@
+rostopic echo /move_base/result
+header: 
+  seq: 0
+  stamp: 
+    secs: 1599634971
+    nsecs: 101357650
+  frame_id: ''
+status: 
+  goal_id: 
+    stamp: 
+      secs: 1599634953
+      nsecs: 100331843
+    id: "/move_base-1-1599634953.100331843"
+  status: 3
+  text: "Goal reached."
+result: 
+
+---
+
