@@ -51,7 +51,8 @@ def movebase_client():
             rospy.signal_shutdown("Action server not available!")
         else:
         # Result of executing the action
-            return client.get_result()   
+            print(client.get_result())
+               
 
 
     f.close()
