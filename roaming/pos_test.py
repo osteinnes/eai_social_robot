@@ -1,7 +1,10 @@
+#!/usr/bin/env python
+import json
+
 f = open('heavy_lab_positions.json')
-    data = json.load(f)
+data = json.load(f)
 
-    for i in data:
-        print(i)
+for i in data:
+    print(i)
 
-    f.close()
+f.close()
